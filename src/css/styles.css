@@ -65,41 +65,48 @@ header nav ul li a::selection {
 }
 .mainContainer {
   width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
   gap: 10px;
   display: flex;
 }
-.mainContainer main img,
+.mainContainer img,
 .innerImageContainer,
 .imageContainer {
   width: 100%;
 }
-.mainContainer main img {
-  object-fit: contain;
-}
 .innerImageContainer {
+  width: 100%;
   height: 145px;
   overflow: hidden;
   padding-bottom: 5px;
+  object-fit: contain;
 }
 .imageContainer {
+  width: 100%;
   height: 150px;
-  overflow: hidden;
   border: 1px solid rgb(196, 193, 193);
   padding: 5px;
 }
-main {
+.mainContainer {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-main div {
+.template {
   width: 45%;
 }
-section h2 {
+
+main h2 {
   font-size: 35px;
   color: rgb(157, 182, 14);
+}
+main {
+  display: flex;
+  width: 1200px;
+  margin: auto;
 }
 aside ul {
   display: flex;
@@ -127,16 +134,16 @@ aside nav > ul {
   margin: 0;
   padding-left: 0;
 }
-main > div p {
+.mainContainer > div p {
   line-height: 1.8;
   font-size: 18px;
 }
-main .template a,
+.mainContainer .template a,
 .contact a,
 .about a {
   color: #9cc31d;
 }
-main .template .readMore {
+.mainContainer .template .readMore {
   color: #dd7536;
 }
 footer {

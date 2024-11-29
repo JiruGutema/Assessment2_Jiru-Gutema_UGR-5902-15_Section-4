@@ -1,8 +1,15 @@
 main {
-  flex-direction: column;
+  display: flex;
+  margin: auto;
 }
-main > div {
-  width: 100%;
+.innerContainer {
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  gap: 50px;
+}
+section {
+  width: 900px;
 }
 input {
   width: 700px;
