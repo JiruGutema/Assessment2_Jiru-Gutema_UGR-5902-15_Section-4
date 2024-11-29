@@ -234,3 +234,14 @@ footer {
 .left p a {
   color: #9cc31d;
 }
+.wrongLayout {
+  position: fixed;
+  background-color: yellow;
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  top: 0;
+  right: 0;
+}
