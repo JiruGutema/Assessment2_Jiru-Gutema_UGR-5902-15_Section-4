@@ -1,0 +1,71 @@
+/* contact */
+.contactMain {
+  display: flex;
+  margin: auto;
+}
+.contactInnerContainer {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  gap: 50px;
+}
+.contactMain section {
+  width: 80%;
+}
+input {
+  width: 80%;
+  font-size: 25px;
+  margin: 10px 0 30px 0;
+}
+textarea {
+  width: 80%;
+  height: 200px;
+}
+button {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Light background with some transparency */
+  backdrop-filter: blur(10px); /* Blur effect for the background */
+  padding: 20px; /* Padding for spacing */
+  background-color: rgba(158, 151, 151, 0.4);
+  display: inline;
+  padding: 10px 30px;
+  margin: 0;
+  border: none;
+  margin: 30px 0;
+}
+
+/* about */
+.aboutMain section {
+  flex-direction: column;
+  width: 80%;
+  line-height: 2;
+}
+.aboutMain .template {
+  width: 100%;
+}
+.aboutMain > div {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+
+.submitbtn {
+  padding: 10px 20px;
+}
+.aboutMain h2 {
+  margin-bottom: 0;
+}
+.aboutMain h3 {
+  margin-top: 10px;
+}
+
+.aboutMain section,
+.contactMain section {
+  max-width: 700px;
+  margin: auto;
+}

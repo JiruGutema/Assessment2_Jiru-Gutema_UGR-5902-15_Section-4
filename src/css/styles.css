@@ -12,7 +12,7 @@ header span {
   color: #dd7536;
 }
 header .container {
-  width: 1200px;
+  width: 80%;
   margin: auto;
 }
 header .textContainer {
@@ -62,7 +62,7 @@ header nav ul li:active a {
   background-color: #c48c48;
 }
 .mainContainer {
-  width: 1200px;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -103,7 +103,7 @@ main h2 {
 }
 main {
   display: flex;
-  width: 1200px;
+  width: 80%;
   margin: auto;
 }
 aside ul {
@@ -156,7 +156,7 @@ footer {
   line-height: 1.8;
 }
 .footerContainer {
-  width: 65%;
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr;
   margin: auto;
@@ -219,7 +219,7 @@ footer {
 .copyright > div {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 80%;
   margin: auto;
 }
 .copyright nav ul {
@@ -237,4 +237,10 @@ footer {
 }
 .left p a {
   color: #9cc31d;
+}
+.footerContainer,
+main,
+header .container,
+.copyright > div {
+  max-width: 1024px;
 }
